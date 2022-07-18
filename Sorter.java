@@ -1,5 +1,5 @@
 
-public class Sorter implements Sort{
+public class Sorter {
 
     Sort sorting;
 
@@ -8,7 +8,7 @@ public class Sorter implements Sort{
         this.sorting = sorting;
     }
 
-    @Override
+
     public int[] sort(int[] myArray) {
 
         sorting.sort(myArray);
